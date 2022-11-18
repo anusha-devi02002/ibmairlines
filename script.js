@@ -54,7 +54,7 @@ function signup(){
             document.getElementsByName("username").value="";
         }
     }
-    if(i==1 || un=='ibm') {
+    if(i==1) {
         if(ps!=rps) {
             document.getElementById("login-error-msg1").innerHTML='Password Mismatch';
             document.getElementsByName("uname").value="";
